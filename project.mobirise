@@ -32,7 +32,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.9.7",
     "siteFonts": [],
-    "uniqCompNum": 48,
+    "uniqCompNum": 49,
     "versionPublish": "4.9.7",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -2871,7 +2871,7 @@
     },
     "product.html": {
       "settings": {
-        "meta_descr": "Продукция\nподробно",
+        "meta_descr": "Продукция\n",
         "title": "Продукция",
         "order": 5
       },
