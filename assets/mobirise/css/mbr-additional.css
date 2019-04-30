@@ -1780,7 +1780,7 @@ body {
 }
 .cid-qTkzRZLJNu .nav-link:hover,
 .cid-qTkzRZLJNu .dropdown-item:hover {
-  color: #0f7699 !important;
+  color: #f7ed4a !important;
 }
 .cid-roHVoe1kQN {
   padding-top: 90px;
@@ -2279,7 +2279,7 @@ body {
 }
 .cid-qTkzRZLJNu .nav-link:hover,
 .cid-qTkzRZLJNu .dropdown-item:hover {
-  color: #0f7699 !important;
+  color: #f7ed4a !important;
 }
 .cid-roHVoe1kQN {
   padding-top: 90px;
@@ -2765,7 +2765,7 @@ body {
 }
 .cid-qTkzRZLJNu .nav-link:hover,
 .cid-qTkzRZLJNu .dropdown-item:hover {
-  color: #0f7699 !important;
+  color: #f7ed4a !important;
 }
 .cid-qTkzRZLJNu .navbar {
   padding: .5rem 0;
@@ -3154,7 +3154,7 @@ body {
 }
 .cid-qTkzRZLJNu .nav-link:hover,
 .cid-qTkzRZLJNu .dropdown-item:hover {
-  color: #0f7699 !important;
+  color: #f7ed4a !important;
 }
 .cid-qTkA127IK8 {
   background-image: url("../../../assets/images/background4.jpg");
@@ -3616,7 +3616,7 @@ body {
 }
 .cid-qTkzRZLJNu .nav-link:hover,
 .cid-qTkzRZLJNu .dropdown-item:hover {
-  color: #0f7699 !important;
+  color: #f7ed4a !important;
 }
 .cid-rog5cfv25E {
   padding-top: 90px;
@@ -4115,7 +4115,7 @@ body {
 }
 .cid-qTkzRZLJNu .nav-link:hover,
 .cid-qTkzRZLJNu .dropdown-item:hover {
-  color: #0f7699 !important;
+  color: #f7ed4a !important;
 }
 .cid-rp5Tzpn1Uw {
   background: #149dcc;
@@ -4518,7 +4518,7 @@ body {
 }
 .cid-qTkzRZLJNu .nav-link:hover,
 .cid-qTkzRZLJNu .dropdown-item:hover {
-  color: #0f7699 !important;
+  color: #f7ed4a !important;
 }
 .cid-roHVoe1kQN {
   padding-top: 90px;
@@ -4956,7 +4956,7 @@ body {
 }
 .cid-qTkzRZLJNu .nav-link:hover,
 .cid-qTkzRZLJNu .dropdown-item:hover {
-  color: #0f7699 !important;
+  color: #f7ed4a !important;
 }
 .cid-rp62Lto5XG {
   padding-top: 135px;
@@ -5469,5 +5469,19 @@ body {
 }
 .cid-rp699yTw7S .nav-link:hover,
 .cid-rp699yTw7S .dropdown-item:hover {
-  color: #0f7699 !important;
+  color: #f7ed4a !important;
+}
+.cid-rp6cNncpX1 {
+  background: #149dcc;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: linear-gradient(0deg, #149dcc, #ffffff);
+}
+.cid-rp6cNncpX1 .video-block {
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .cid-rp6cNncpX1 .video-block {
+    width: 100% !important;
+  }
 }
