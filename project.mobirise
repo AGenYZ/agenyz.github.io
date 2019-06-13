@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Agenyz",
-    "currentPage": "home.html",
+    "currentPage": "отзывы.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -40,7 +40,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.9.7",
     "siteFonts": [],
-    "uniqCompNum": 154,
+    "uniqCompNum": 165,
     "versionPublish": "4.9.7",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -4465,13 +4465,183 @@
             }
           },
           "_name": "header16",
-          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Полный экран\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Подзаголовок\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Кнопки\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#efefef\" selected>\n            <input type=\"video\" title=\"Фоновое видео\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">Результаты использования продукции - это самое главное!<br>Здесь подобрана лишь малая часть отзывов людей, пользующихся продукцией AGenYZ</h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Красивые мобильные сайты\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">&nbsp;<br>На сегодняшний день не надо быть миллионером, чтобы изменить свою жизнь к лучшему. Достаточно прямо сегодня, не откладывая в долгий ящик, пересмотреть свои привычки и уже через месяц следования новому образу жизни вы ощутите результат.\n<br></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"https://mobirise.co\" data-app-placeholder=\"Введите Текст\">ПОДРОБНЕЕ</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Полный экран\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Название\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Подзаголовок\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Текст\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Кнопки\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Фоновое изображение\" value=\"../_images/background4.jpg\" parallax>\n            <input type=\"color\" title=\"Цвет фона\" value=\"#efefef\" selected>\n            <input type=\"video\" title=\"Фоновое видео\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Наложение\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Цвет наложения\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Прозрачность\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"col-md-10 align-center\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\">Результаты использования продукции - это самое главное!<br>Здесь подобрана лишь малая часть отзывов людей, пользующихся продукцией AGenYZ</h1>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Красивые мобильные сайты\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">&nbsp;<br>На сегодняшний день не надо быть миллионером, чтобы изменить свою жизнь к лучшему. Достаточно прямо сегодня, не откладывая в долгий ящик, пересмотреть свои привычки и уже через месяц следования новому образу жизни вы ощутите результат.\n<br><br>(<i><b>Отзывы людей, пользующихся продукцией AGenYZ, приведенные ниже взяты из чатов, в которых они делятся своими результатами. Стилистика и орфография постов не исправляется</b></i>)<br>Этот раздел периодически обновляется, заходите почаще<br><br></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-black-outline\" href=\"https://mobirise.co\" data-app-placeholder=\"Введите Текст\">ПОДРОБНЕЕ</a></div>\n            </div>\n        </div>\n    </div>\n\n</section>",
           "_cid": "rog5cfv25E",
           "_anchor": "header16-9",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Ширина текста\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Ширина линии\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Цвет линии\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>Геннадий Гуровский:<div>Неделя прошлая выдалась физически насыщенная.</div><div>На даче у родителей садили картошку и решили построить беседку.</div><div>Прямо с нуля из своего материала.</div><div><br></div><div>Очень помогла True Aqua.</div><div>2 раза в день PH-Баланс! И прямо чувствуется, как прибавляются силы после приема.</div><div><br></div><div>ИмунСелл - после обеда.</div><div>Сорбио Детокс вечером.</div><div>И это в комплексе с нашими БАД и TrueShake, конечно.</div><div>Организму моему очень нравится!</div><div><br></div><div>В конце дня чувствуешь приятную усталость, а утром снова, как огурчик - готов к работе.</div><div>Я влюбился в True Aqua!</div><div>Теперь даже не знаю, что на первом месте: БАД, True Aqua или TrueShake.</div><div>Он все номер 1!</div><div><br></div><div>За пять дней беседка стоит.</div><div>Соседи в удивлении \"Я тоже такую же хочу!\"</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_cid": "rteHOQh5Zx",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content9-4k"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Ширина текста\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Ширина линии\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Цвет линии\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>Татьяна Пекушева:<div>Замечательный результат получила на продукции АДЖЕНИС. 2 недели назад получила травму икроножной мышцы. Вся нога (от пятки до колена) была фиолетового цвета от внутренних кровоподтеков. Также образовалось большое уплотнение и приходилось затягивать ногу бинтом, чтобы можно было наступать на нее. Использовала 3Д-Матрикс Селлгенетикс и Альфа Омега Q10 . В настоящее время - нет больше уплотнения и полностью восстановился цвет ноги. Хороший сгиб в стопе уже. Я очень рада что за такое короткое время успела выскочить из этой проблемы, так как мне предстоит выступать на Крупном спортивном празднике в Лужниках в этом месяце, и я очень боялась что не смогу.&nbsp;</div><div>В ОЧЕРЕДНОЙ РАЗ УБЕЖДАЮСЬ ЧТО Я ИМЕЮ ДЕЛО С ПРАВИЛЬНОЙ ПРОДУКЦИЕЙ ДЛЯ ЗДОРОВЬЯ.</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_cid": "rteFt90ozx",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content9-4j"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Ширина текста\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Ширина линии\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Цвет линии\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>Лариса:<div>Спешу поделиться с вами своими результатами по здоровью! В течение нескольких лет на фоне стрессов у меня были проблемы со сном. Ложилась в 22, валялась всю ночь, ложилась в 01 - та же история. Забывалась под утро, весь следующий день чувствовала себя уставшей, разбитой, все из рук валилось. С ноября принимаю все Бады AGENYZ. Когда бы не легла спать, засыпаю легко, сплю крепко, высыпаюсь за 7,8 часов и просыпаюсь отдохнувшей и энергичной. Очень рада такому замечательному обстоятельству! Продукт работает!</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_cid": "rteFs0r58u",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content9-4h"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Ширина текста\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Ширина линии\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Цвет линии\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>Ferafontova Rima:<div>Поделюсь своим результатом. Каждый  год полностью проверяюь, узи делаю, В том году у меня был &nbsp;<span style=\"font-size: 1.5rem;\">гипотоз печени, врач сказала надо убирать жир и узел на щитовидке слева. С октября пью витамины, селлгенетикс каждый  месяц. 7 июня проверилась, гипотоз чуть, чуть и узел совсем маленький, остальные органы, врач сказала в отличном состоянии🤗👏</span></div><div>За почками слежу, после перенесенной мышинной лихорадки.</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_cid": "rteCax0Kuz",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content9-4b"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Ширина текста\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Ширина линии\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Цвет линии\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>Наталья:<div>Мне 52 года,я писала уже свой результат,что у меня мелкий шрифт не читался,мне сказали возрастное 2 года назад.В процессе приёма адженис с ноября 2018г.у меня резкость зрения начала улучшаться.А здесь месяц у меня образовывалась корочка в слёзном канале в одном глазу.Я всё никак не могла попасть к окулисту.И вот попала,какое Диво!Именно этот глаз-ЕДИНИЦА зрение.Окулист сказала всё отлично.Я увидела этим глазом 2 нижнюю строчку.Я так понимаю-это чистка прошла!Это волшебный продукт и волшебство продолжается!🤗👍👍👍</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_cid": "rteFsEm5ee",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content9-4i"
         },
         {
           "_styles": {
@@ -4962,6 +5132,142 @@
             }
           },
           "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Ширина текста\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Ширина линии\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Цвет линии\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>Алена Хайрулина:<div>Принимаю продукт ТРУЕ АКВА всего 4 дня&nbsp;</div><div>В следующем порядке:</div><div>СОРБИО ДЕТОКС селл чере20 минут &nbsp;<span style=\"font-size: 1.5rem;\">PH Баланс Селл</span></div><div>И целый день пью разведеный в шейкере Иммун Сел.</div><div>(После него хочется пить)</div><div><span style=\"font-size: 1.5rem;\">Плюс 3D matrix, ALFAOMEGA-Q10</span><br></div><div><br></div><div>Ушли боли из спины и колена( Раньше даже в покое не могла места найти раньше, к болям привыкла и сроднилвсь с ними )</div><div><br></div><div>Такое ощущение, что произошел лифтинг кожи тела и лица..ттт))))😌</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_cid": "rteCa1MAzx",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content9-4a"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Ширина текста\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Ширина линии\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Цвет линии\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>Nikiforova Ludmila:<div>У меня врожденные плюс 9, приобретенное косоглазие, возраст 65. Пью селлгенетикс, альфаомега, 3д-матрикс, иногда гепаинт, коктейли, начала воду. При постоянной работе за компьютером и с телефоном глаза не устают, зрение стабильное, давление в норме.&nbsp;</div><div>Применение наших бадов позволит укрепить соединительные ткани в структурах глаз и улучшит кровообращение= питание и обменные процессы.</div><div>Желаю эдоровья.</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_cid": "rteCbEe9qm",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content9-4d"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Ширина текста\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Ширина линии\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Цвет линии\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>Алина Саврасова:<div>Добрый день! Думаю,можно уже написать и о своем результате. Добавки пью давно и качественные,с конца апреля перешла на продукцию Адженис,пью всю линейку,сахар с 8 снизился на 5-5.5,держится. Проблемы с суставами перестали одолевать,просто не беспокоят. Стали в радость долгие прогулки с собакой) и занятия в бассейне. Общее состояние улучшилось значительно,работоспособность увеличилась. Еще интересная вещь происходит,папилломы на теле изменили цвет,как-то истончились, некоторых просто нет. Удивительно. Вес начал снижаться. Я скептик,но тут изменения очевидны. Спасибо создателям продукции большое!<br>Я как-то в сказки не верю,но 3D-матрикс меня убедил в обратном! Очень быстро получила результат. Я не знаю,как он работает ,но факт остается фактом! Еще мой косметолог обратила мое внимание на то,что купероз стал значительно меньше выражен на подбородке и это летом,когда жара! Обычно наоборот.</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_cid": "rteCcrLZa0",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content9-4e"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Ширина текста\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Ширина линии\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Цвет линии\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>Людиила Маргалик:<div>Добрый день. Писала ранее, что с трёх капсул ушли безвозвратно отёки. Через месяц приобрела весь продукт и пью всё в течении 3 недель. Похудела примерно на 8-10 кг. Прибавилось сил. Начала сегодня заниматься физкультурой, появилась потребность. Память восстановилась. Приливы ушли.</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_cid": "rteCbiSaO9",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content9-4c"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
           "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Ширина текста\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Ширина линии\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Цвет линии\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text>Серж Алекс<br>Всем добрый день!<div>Хочу поделиться результатом по продуктам.</div><div>Моей супруге в 15 лет делали донорскую пересадку роговицы на оба глаза в МНТК г. МОСКВА. Операция достаточно сложная и болезненная. Но все прошло успешно и зрение ее восстановилось полностью. Но в  2013г. перед родами ей после обследования ей сказали, что роговица на глазах истончилась и роды показаны только \"кесарево\". Через 2 г. после родов ее направили в целях укрепления роговицы  в 2015 и 2016 в МНТК в Москву на кератопластику на оба глаза поочередно. Результаты после этой процедуры после обследования ее глаз в 2017г. в Москве оказались отличные.</div><div>И вот в прошлом году  в сентябре у нее на одном глазу появилось темное пятно прямо по центру. Проверив зрение в нашем МНТК в Оренбурге врачи сказали, что у нее на швах на роговице пошло помутнение, похожее на отмирание тканей. У нее случился шок, т.к. ей уже 41 год и тут встает вопрос, либо снова искать донора и ехать в Москву на операцию, которая достаточно болезненная и факт успешного завершения даже уже не 50/50. Врачи приняли решение поставить ее на учет и на ежемесячной основе сначала наблюдать за процессом, параллельно прописав ей капли в глаза. Мы купили капли, начали капать их, но прокапав месяц, у нее пятно превратилось из черного вкрасное. У нее опять шок, стресс. Я уговорил ее попробовать начать пить Селлгенетикс, 3ДМатрикс и Альфаомегу. Она начав пить их одновременно начала испытфвать сильные боли в животе, такие, что не могла встать с кровати 3 дня. Я напугался, после чего она все прекратилиа пить и снова истерика и шок. Казалось этот ад никогда не кончится.... Я срочно обратился за консультацией к Михайловской Татьяне и рассказал ей всю реакцию организма моей супруги на комплексы. Она меня выслушала, задала мне вопросы касательно супруги и дала рекомендации, как нам начать принимать эти комплексы. Учитывая такую болезненную реакцию, супруга очень боялась снова начать принимать комплексы. Но по рекомендации Татьяны она все же начала сначала с Омеги, потом добавила Селлгенетикс и потом 3ДМатрикс. К врачу мы конечно же как и большинство людей с глазами ежемесячно не ходили и капли, которые прописали  супруге через месяц перестали капать. Но комплексы она продолжила пить и пъет по настоящее время. Неделю назад супоуга сказала мне, что у нее вроде пропало пятно, но млжет это просто организм уже привык к нему и она его не замечает. Мы записались на прием в наш центр МНТК  к тому же врачу, который ее и смотрел первый раз. Нас снова направили на повторное обследование. Она его прошла, почти пол дня из кпбинета в кабинет ходили. С результатами обследовпния она зашла на прием к врачу, врач посмотрел результаты и ее роговицу и сказала, что помутнение на роговице полностью прошло, остался чистый нормальный шов и зрение у нее по прежнему 100%.</div><div>Мы испыьали еще один шок, но уже от радости.</div><div>P.S. продукция AGenYZ реально хорошая и эффективная.....</div><div>Необходимость операции по донорской пересадке роговицы отплала. Хочу сказать всем, что результат  настает у каждого в свое время, нужно только просто употреблять продукт и он сделает свое дело как надо👍.</div><div>Всем здоровья и удачи в бизнесе!!!!</div><div><br></div><div>Основателям AGenYZ здоровья и всех всех благ!!!!</div><div>Спасибо вам, что  вы есть у нас!!!!!</div><div><br></div><div>Спасибо всем вам!!!)))....</div><div>Буду рад и счастлив, если наша история поможет  всем, кто верит и надеется!!!!!</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
           "_cid": "rp6XjQCALk",
           "_anchor": "content9-29",
@@ -4969,6 +5275,40 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Ширина текста\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Ширина линии\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Цвет линии\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>Мария Егорова:<div>Начала пить 3 вида тру аква. Чувствовала себя нормально, только в последнее время стала как то уставать. С утра было отечное немного лицо, к вечеру тяжесть в ногах. Голова \"тяжёлая\". Никак не могла себя выпиннуть тренироваться.</div><div><br></div><div>Ради эксперимента отложила пока бады и коктейли, думаю понаблюдаю, что организм скажет на новую водичку, будет ли вообще заметен эффект.</div><div><br></div><div>В общем, сегодня третий день. Энергии вагон! В ногах лёгкость, нет никаких отёков и усталости. С утра встала и прям поняла, что хочу присесть, отжаться и тд - сделала тренировку Альфафит 😁👍. В голове полная ясность и лёгкость.</div><div><br></div><div>И ещё немаловажный момент - её хочется пить! Не приходится заставлять себя! Сорбио развожу натощак в стакане воды, а иммуно и PH в бутылочке аджениз, на 500 мл.&nbsp;</div><div><br></div><div>Дочке 5 лет, несколько раз на прогулке и в кино просила попить, тоже давала из бутылочки. Она вообще никак не среагировала, просто пила и все. То есть, вкус комфортный.&nbsp;</div><div><br></div><div>Я влюбилась в тру аква 😍</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_cid": "rteCd1u2QR",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content9-4f"
         },
         {
           "alias": false,
@@ -5005,6 +5345,40 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Сверху\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Снизу\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Ширина текста\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Ширина линии\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Цвет линии\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Цвет фона\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>Светлана Авдеева:<div>Принимаю Селлгенетикс постоянно+чередую все продукты+коктейли.&nbsp;</div><div>Улучшилось состояние кожи, нет сухости, самой приятно прикасаться, волосы значительно выросли(до этого, вообще, не отростали), на небольших залысинах появились тоже коротенькие отростки.</div><div>ЖКТ хорошо работает, нет вздутия, изжоги, тяжести, стул нормальный.</div><div>Учитывая климактерический возраст нормализуется менструальный цикл (молодеем!)</div><div>А САМОЕ ГЛАВНОЕ!</div><div>Не беспокоят головные боли, прошла вечная сонливость! Чувствую огромный прилив сил,  энергии, нет никаких негативных мыслей, всевозможные стрессовые ситуации переношу легко и с улыбкой!</div><div>Хочется ТВОРИТЬ, ПОРХАТЬ, ЖИТЬ!!!</div><div>Все мои знакомые и близкие замечают все эти изменения со мной!</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_cid": "rteCdEZFLH",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content9-4g"
         },
         {
           "alias": false,
