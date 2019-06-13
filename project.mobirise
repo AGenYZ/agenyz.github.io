@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Agenyz",
-    "currentPage": "html.html",
+    "currentPage": "agenyz.github.io.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -8611,7 +8611,7 @@
         }
       ]
     },
-    "html.html": {
+    "agenyz.github.io.html": {
       "settings": {
         "main": true,
         "title": "Home",
