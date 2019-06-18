@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Agenyz",
-    "currentPage": "page13.html",
+    "currentPage": "news.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -9471,9 +9471,9 @@
         }
       ]
     },
-    "page13.html": {
+    "news.html": {
       "settings": {
-        "meta_descr": "Биохакинг\n",
+        "meta_descr": "Новости, акции, подарки, статьи\n",
         "title": "Новости, акции, подарки, статьи",
         "order": 7
       },
