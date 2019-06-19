@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Agenyz-clone",
-    "currentPage": "github.io.html",
+    "currentPage": "html.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -10241,7 +10241,7 @@
         }
       ]
     },
-    "github.io.html": {
+    "html.html": {
       "settings": {
         "main": true,
         "title": "Home",
