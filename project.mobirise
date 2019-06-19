@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Agenyz-clone",
-    "currentPage": "html.html",
+    "currentPage": "home.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -9381,7 +9381,7 @@
         }
       ]
     },
-    "home.html": {
+    "clon.html": {
       "settings": {
         "title": "Page 14",
         "meta_descr": "Главная",
@@ -10241,7 +10241,7 @@
         }
       ]
     },
-    "html.html": {
+    "home.html": {
       "settings": {
         "main": true,
         "title": "Home",
