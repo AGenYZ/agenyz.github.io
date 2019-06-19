@@ -9384,7 +9384,7 @@
     "home.html": {
       "settings": {
         "main": true,
-        "title": "",
+        "title": "home",
         "meta_descr": "Главная",
         "header_custom": "",
         "footer_custom": "",
