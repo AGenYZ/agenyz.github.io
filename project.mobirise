@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Agenyz",
-    "currentPage": "html.html",
+    "currentPage": "home.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -9461,10 +9461,10 @@
         }
       ]
     },
-    "html.html": {
+    "home.html": {
       "settings": {
         "main": true,
-        "title": "",
+        "title": "Главная",
         "meta_descr": "Главная",
         "header_custom": "",
         "footer_custom": "",
