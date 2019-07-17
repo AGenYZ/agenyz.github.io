@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Agenyz",
-    "currentPage": "news.html",
+    "currentPage": "html.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -40,7 +40,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.9.7",
     "siteFonts": [],
-    "uniqCompNum": 175,
+    "uniqCompNum": 179,
     "versionPublish": "4.9.7",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -58,7 +58,7 @@
       "settings": {
         "meta_descr": "TrueShake",
         "title": "TrueShake",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -738,7 +738,7 @@
       "settings": {
         "meta_descr": "CellElixir",
         "title": "CellElixir",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -1430,7 +1430,7 @@
       "settings": {
         "meta_descr": "Продукция",
         "title": "Регистрация",
-        "order": 13
+        "order": 14
       },
       "components": [
         {
@@ -1844,7 +1844,7 @@
       "settings": {
         "meta_descr": "Продукция\n",
         "title": "Продукция",
-        "order": 5
+        "order": 6
       },
       "components": [
         {
@@ -2258,7 +2258,7 @@
       "settings": {
         "meta_descr": "Биохакинг\n",
         "title": "Биохакинг",
-        "order": 6
+        "order": 7
       },
       "components": [
         {
@@ -2962,7 +2962,7 @@
       "settings": {
         "meta_descr": "TrueAqua",
         "title": "TrueAqua",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -3658,7 +3658,7 @@
       "settings": {
         "meta_descr": "Отзывы о продукции\n",
         "title": "Отзывы о продукции",
-        "order": 10
+        "order": 11
       },
       "components": [
         {
@@ -4876,7 +4876,7 @@
       "settings": {
         "meta_descr": "О деньгах",
         "title": "О деньгах",
-        "order": 12
+        "order": 13
       },
       "components": [
         {
@@ -6155,7 +6155,7 @@
       "settings": {
         "meta_descr": "маркетинг-план",
         "title": "Маркетинг-план",
-        "order": 11
+        "order": 12
       },
       "components": [
         {
@@ -6653,7 +6653,7 @@
       "settings": {
         "meta_descr": "CellGenetiX\n",
         "title": "CellGenetiX",
-        "order": 9
+        "order": 10
       },
       "components": [
         {
@@ -7183,7 +7183,7 @@
       "settings": {
         "meta_descr": "3D-Matrix\n",
         "title": "3D-Matrix",
-        "order": 8
+        "order": 9
       },
       "components": [
         {
@@ -7713,7 +7713,7 @@
       "settings": {
         "meta_descr": "Производство продукции и технологии",
         "title": "Производство и технологии",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -8695,7 +8695,7 @@
       "settings": {
         "meta_descr": "Новости, акции, подарки, статьи\n",
         "title": "Новости, акции, подарки, статьи",
-        "order": 7
+        "order": 8
       },
       "components": [
         {
@@ -9461,10 +9461,10 @@
         }
       ]
     },
-    "home.html": {
+    "html.html": {
       "settings": {
         "main": true,
-        "title": "home",
+        "title": "",
         "meta_descr": "Главная",
         "header_custom": "",
         "footer_custom": "",
