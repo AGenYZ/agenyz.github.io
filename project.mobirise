@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Agenyz",
-    "currentPage": "io.html",
+    "currentPage": "html.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -9326,7 +9326,7 @@
         }
       ]
     },
-    "io.html": {
+    "html.html": {
       "settings": {
         "main": true,
         "title": "Главная",
